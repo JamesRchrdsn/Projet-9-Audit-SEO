@@ -1,4 +1,5 @@
-.nav a {
+.nav a,
+.nav-pills .nav-link {
   color: #000;
 }
 .about-me__introduction,
@@ -32,6 +33,8 @@
 }
 #about,
 #contact .container,
+.mg-next,
+.mg-prev,
 .nav ul,
 .service,
 .top-header,
@@ -57,7 +60,8 @@ body {
 }
 #about,
 #contact,
-#services {
+#services,
+.item-column {
   position: relative;
 }
 .top-header .name {
@@ -117,12 +121,36 @@ body {
 .gallery .nav {
   justify-content: center;
 }
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #beb45a;
+  border-radius: 0;
+}
+.item-column {
+  margin-bottom: 0 !important;
+  padding: 0;
+}
+.item-column::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
 .gallery-item {
   position: absolute;
   width: 100%;
   height: 100%;
   object-fit: cover;
   padding: 0.5em;
+}
+.mg-next,
+.mg-prev {
+  width: 30px;
+  height: 30px;
+  border-radius: 00%;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
 }
 form input,
 form textarea {
