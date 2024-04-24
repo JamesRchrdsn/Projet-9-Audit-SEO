@@ -169,6 +169,10 @@ form textarea {
 }
 .quote__text {
   font-weight: 300;
+  font-size: 2.5em;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 .quote__author {
   font-weight: 800;
