@@ -86,6 +86,7 @@ body {
 }
 #about {
   background-color: #f6d2b8;
+  width: 100%;
 }
 .picture.left::before {
   background-color: #e5975f;
