@@ -9,7 +9,6 @@ Accessibilité : Assurer que le site est utilisable par tous les utilisateurs, y
 Performances : Améliorer le temps de chargement et l'efficacité du site pour une meilleure expérience utilisateur.
 Démarche
 
-
 Le projet comprend plusieurs étapes clés :
 
 Analyse initiale : Utilisation de Google Lighthouse pour identifier les problèmes actuels en matière de SEO, d'accessibilité et de performances.
@@ -51,9 +50,6 @@ Performance : 100
 Accessibilité : 100
 Bonnes pratiques : 100
 SEO : 100
-
-Licence :
-Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 
 Auteur :
 James LAURENT
