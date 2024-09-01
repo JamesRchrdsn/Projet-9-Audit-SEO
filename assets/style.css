@@ -130,6 +130,8 @@ body {
   background-color: #beb45a;
   border-radius: 0;
 }
+.nav-link{
+  cursor:pointer}
 .item-column {
   margin-bottom: 0 !important;
   padding: 0;
@@ -146,6 +148,7 @@ body {
   object-fit: cover;
   padding: 0.5em;
   cursor: pointer;
+  margin: 0.5em
 }
 .mg-next,
 .mg-prev {
